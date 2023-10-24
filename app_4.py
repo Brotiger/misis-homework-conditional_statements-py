@@ -16,6 +16,6 @@ else:
     intersection_end = min(segment1_end, segment2_end)
     dist = max(intersection_start, intersection_end) - min(intersection_start, intersection_end)
     if dist == 0:
-        print("Отрезки пересекаются в точке", intersection_start)
+        print(f"Отрезки пересекаются в точке {intersection_start}")
     else:
-        print("Длина пересечения отрезков",dist)
+        print(f"Длина пересечения отрезков {dist}")
